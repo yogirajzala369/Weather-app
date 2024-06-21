@@ -9,7 +9,11 @@ import {
   WiFog,
 } from "react-icons/wi";
 
-const weatherIconMap = {
+type WeatherIconMapping = {
+  [key: string]: JSX.Element;
+};
+
+const weatherIconMap: WeatherIconMapping = {
   sunny: <WiDaySunny />,
   clear: <WiNightClear />,
   "partly cloudy": <WiDayCloudy />,
@@ -33,7 +37,9 @@ interface WeatherIconProps {
 }
 
 const WeatherIcon: React.FC<WeatherIconProps> = ({ condition }) => {
-  return weatherIconMap[condition.toLowerCase()] || <WiDaySunny />;
+  const conditionLower = condition.toLowerCase();
+
+  return weatherIconMap[conditionLower] || <WiDaySunny />;
 };
 
 export default WeatherIcon;
