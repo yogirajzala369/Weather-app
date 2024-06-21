@@ -45,7 +45,7 @@ export const Location = styled.div<LocationTabProps>`
 
   @media (max-width: 480px) {
     grid-column: span 1;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 `;
 
