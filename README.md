@@ -11,9 +11,19 @@ this is an app where users can find current and future weather for three cities 
 # View
 - Find deploed project on vercel: https://weather-asalxlirc-yogirajzala369s-projects.vercel.app/
 
+# View for the web and mobile app
 | In Web | In Mobile |
 | ------------- | ------------- |
-| https://github.com/yogirajzala369/Weather-app/assets/111154494/510e9334-626f-44f9-a9c8-7366df24325b | https://github.com/yogirajzala369/Weather-app/assets/111154494/24e8b7e0-6b2b-4847-939b-0bd039bd96f2 | ![Screenshot 2024-06-20 at 11 42 31 PM](https://github.com/yogirajzala369/Weather-app/assets/111154494/682a9095-b2b8-4dd0-a689-4e5abeb8be52) | ![Screenshot 2024-06-20 at 11 42 47 PM](https://github.com/yogirajzala369/Weather-app/assets/111154494/aa1f429f-bbeb-4c34-9944-2c3373694c06) |
+| ![Screenshot 2024-06-20 at 11 42 31 PM](https://github.com/yogirajzala369/Weather-app/assets/111154494/12b37ca5-2e8f-4292-bc18-1949ec7f1f22) | ![Screenshot 2024-06-20 at 11 42 47 PM](https://github.com/yogirajzala369/Weather-app/assets/111154494/682112e2-80b0-4d45-8d32-b0d254bf4b76) |
+
+
+# Scree video recording for the web and mobile view
+| In Web | In Mobile |
+| ------------- | ------------- |
+| https://github.com/yogirajzala369/Weather-app/assets/111154494/510e9334-626f-44f9-a9c8-7366df24325b | https://github.com/yogirajzala369/Weather-app/assets/111154494/24e8b7e0-6b2b-4847-939b-0bd039bd96f2 | 
+
+
+
 
 
 
