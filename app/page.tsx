@@ -12,12 +12,13 @@ import {
 } from "./styles/WeatherStyles";
 import WeatherDetails from "./components/WeatherDetails";
 import WeatherForecast from "./components/WeatherForecast";
+import { WeatherData } from "./types/WeatherData";
 
 const Home: React.FC = () => {
   const [city, setCity] = useState("Tokyo");
   const citiesList = ["Tokyo", "New York", "Moscow"];
 
-  const [weatherData, setWeatherData] = useState({
+  const [weatherData, setWeatherData] = useState<WeatherData>({
     today: null,
     tomorrow: null,
     sunday: null,
@@ -89,6 +90,7 @@ const Home: React.FC = () => {
     <WeatherContainer>
       {citiesList.map((cityName) => (
         <Location
+          key={cityName}
           isSelected={cityName === city}
           onClick={() => changeCity(cityName)}
         >
