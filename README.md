@@ -1,3 +1,25 @@
+## BEST WEATHER APP
+
+this is an app where users can find current and future weather for three cities Tokyo, New York, Moscow. 
+- This nextjs app uses a Public weather api to get data for popular cities
+- This is a completely mobile responsive app
+- Each city location tab is clickable and upon clicking it should display Current and future weather
+- On the tech side the app uses modern tech.. React functional components, styled components, typescript
+- This is a complete modular app with code broken into smaller components
+
+
+# View
+- Find deploed project on vercel: https://weather-asalxlirc-yogirajzala369s-projects.vercel.app/
+
+| In Web | In Mobile |
+| ------------- | ------------- |
+| https://github.com/yogirajzala369/Weather-app/assets/111154494/510e9334-626f-44f9-a9c8-7366df24325b | https://github.com/yogirajzala369/Weather-app/assets/111154494/24e8b7e0-6b2b-4847-939b-0bd039bd96f2 | ![Screenshot 2024-06-20 at 11 42 31 PM](https://github.com/yogirajzala369/Weather-app/assets/111154494/682a9095-b2b8-4dd0-a689-4e5abeb8be52) | ![Screenshot 2024-06-20 at 11 42 47 PM](https://github.com/yogirajzala369/Weather-app/assets/111154494/aa1f429f-bbeb-4c34-9944-2c3373694c06) |
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
