@@ -20,10 +20,10 @@ const WeatherForecast: React.FC<WeatherForecastProps> = ({ forecasts }) => {
     <ForecastContainer>
       <Forecast>
         {forecasts.map((forecast) => (
-          <div key={forecast.day}>
+          <React.Fragment key={forecast.day}>
             <ForecastDay>{forecast.day}</ForecastDay>
             <ForecastTemp>{Math.round(forecast.temperature)}°</ForecastTemp>
-          </div>
+          </React.Fragment>
         ))}
       </Forecast>
     </ForecastContainer>
